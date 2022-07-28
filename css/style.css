@@ -1,0 +1,252 @@
+.text-danger {
+    color: #eb1f85!important;
+}
+
+.text-secondary {
+    color: #922dc5!important;
+}
+
+.text-info {
+    color: #16acd1,!important;
+}
+
+.text-dark {
+    color: #040912!important;
+}
+
+.btn-dark {
+    background-color: #040912!important;
+}
+
+.btn-light {
+    background-color: #e5e3ee;
+}
+
+.text-white {
+    color: #e5e3ee!important;
+}
+
+.navHeader, .skills {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.iconHover {
+    transition: 0.2s transform;
+    fill:rgba(200, 200, 200, 1)
+}
+
+.iconsContainerBg {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.iconHover:hover {
+    transform: scale(1.1);
+    fill: #e5e3ee;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+.adressHover {
+    transition: 0.2s transform;
+}
+
+.adressHover:hover {
+    transform: scale(1.02);
+    fill: black;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+.btnHover {
+    transition: 0.1s;
+}
+
+.btnHover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 1rem rgba(255,255,255, 0.2);
+}
+
+.svgIcon1 {
+    fill:#eb1f85;
+}
+.svgIcon2 {
+    fill:#16acd1;
+}
+.svgIcon3 {
+    fill:#922dc5;
+}
+
+.bg-dark {
+    background-color: #040912!important;
+}
+
+.mainBg{
+    background-image: url(../imgs/mainbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text-justify {
+    text-align: justify!important;
+}
+
+.mainInfos {
+    padding: 10rem 0 10rem 0!important;
+}
+
+.textShadow {
+    text-shadow: 1px 1px 10px black;
+}
+
+.textLight {
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.2);
+}
+
+.iconLight {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+}
+
+.logo{
+    width:6vw;
+    height:auto;
+}
+
+.light {
+    box-shadow: 0 0 10rem rgba(255,255,255, .05);
+}
+
+.card {
+    background-color: #e5e3ee;
+    box-shadow: 0 0.5rem 0.5rem rgba(235, 31, 133, 0.5), 0.5rem 0 1rem rgba(22, 172, 209, 0.5)!important;
+}
+
+.card-body {
+    color: #040912!important;
+}
+
+.card-img-top {
+    fill: #040912!important;
+}
+
+.c1 { 
+    fill: rgb(22, 172, 209); 
+} 
+.f1 { 
+    fill: none;
+    stroke: rgb(235, 31, 133);
+    stroke-width: 16;
+}
+.d1 {
+    fill: none;
+    stroke: rgb(146, 45, 197);
+    stroke-width: 16;
+}
+
+.formInput,.formInput1,.formInput2,.formInput3 {
+    border-radius: 0!important;
+    border: 3px solid #040912;
+}
+
+.formInput:focus{
+    border-radius: 0!important;
+    border: 3px solid #eb1f85;
+    box-shadow: none!important;
+}
+
+.formInput1:focus{
+    border-radius: 0!important;
+    border: 3px solid #16acd1;
+    box-shadow: none!important;
+}
+
+.formInput2:focus{
+    border-radius: 0!important;
+    border: 3px solid #922dc5;
+    box-shadow: none!important;
+}
+
+.formInput3:focus{
+    border-radius: 0!important;
+    border: 3px solid #e5e3ee;
+    box-shadow: none!important;
+}
+
+
+@media screen and (max-width: 990px) {
+    .headerNavbar {
+        flex-direction: flex;
+    }
+    .sectionWithImg {
+        flex-direction: column;
+    }
+    .footerLinks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem!important;
+    }
+    .titleResponsive {
+        font-size: 6vw!important;
+    }
+    .subtitleResponsive {
+        font-size: 5vw!important;
+    }
+    .textResponsive {
+        font-size: 4vw!important;
+    }
+    
+    .infoBtn {
+        align-self: center!important;
+    }
+    .infoContainer {
+        margin: 1rem 0 1rem 0!important;
+    }
+    .mainInfos {
+        padding: 5rem 0 5rem 0!important;
+    }
+    .contactsInfo {
+        flex-direction: column;
+
+    }
+
+    .addressText {
+        transform: scaleX(0);
+        transition: transform 0.1s;
+    }
+
+    .iconHover:hover .addressText {
+        transform: scaleX(1);
+    }
+
+    .addressText {
+        display: none;
+    }
+
+    .iconsContainer {
+        justify-content: center!important;
+    }
+
+    .navHeader {
+        padding-right: 1rem;
+    }
+
+    .smCenter {
+        text-align: center;
+    }
+
+    .logo{
+        width:13vw;
+        margin-left: 1rem;
+    }
+
+    .skill {
+        justify-content: start!important;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        width:17vw;
+    }
+}
